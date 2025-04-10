@@ -56,7 +56,7 @@ const BestSellersItems: React.FC = () => {
   }, []);
 
   return (
-    <div className="py-5 px-2 md:mt-10 md:px-20 contianer overflow-scroll">
+    <div className="py-5 px-2 md:mt-10 md:px-20 no-scrollbars contianer overflow-scroll">
       <div
         className={`flex gap-5 transition-transform duration-1000 ease-in-out ${
           isVisible ? "translate-x-0" : "translate-x-full"
