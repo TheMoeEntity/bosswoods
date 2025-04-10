@@ -7,14 +7,6 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
-import { Damion } from "next/font/google";
-
-export const damion = Damion({
-  subsets: ["latin"],
-  weight: "400", // Damion only has one weight
-  variable: "--font-damion", // optional: for use as a CSS variable
-  display: "swap",
-});
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
