@@ -37,8 +37,8 @@ const About = () => {
             alt="Boss Image"
             className="w-full z-10 h-auto object-cover"
           />
-          <div className="w-full -left-9 absolute -top-8 h-[500px]  bg-[#F6F1EA] object-cover"></div>
-          <div className="w-full -right-10 absolute -bottom-12 h-[500px]  border-[5px] border-[#D3AB68] object-cover"></div>
+          <div className="w-full hidden md:block -left-9 absolute -top-8 h-[500px]  bg-[#F6F1EA] object-cover"></div>
+          <div className="w-full hidden md:block -right-10 absolute -bottom-12 h-[500px]  border-[5px] border-[#D3AB68] object-cover"></div>
         </div>
       </div>
     </section>

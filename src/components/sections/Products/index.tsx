@@ -7,7 +7,7 @@ const Products = () => {
     <section>
       <BestSellers />
       <div className="bg-white py-5">
-        <h1 className="font-black mt-20 text-4xl md:text-6xl text-center">
+        <h1 className="font-black mt-10 md:mt-20 text-4xl md:text-6xl text-center">
           MAIN MENU
         </h1>
         <div className="container  p-5 md:p-12 max-w-7xl mx-auto flex items-center gap-6">

@@ -56,7 +56,7 @@ const BestSellersItems: React.FC = () => {
   }, []);
 
   return (
-    <div className="py-5 px-5 mt-10 md:px-20 contianer overflow-scroll">
+    <div className="py-5 px-2 md:mt-10 md:px-20 contianer overflow-scroll">
       <div
         className={`flex gap-5 transition-transform duration-1000 ease-in-out ${
           isVisible ? "translate-x-0" : "translate-x-full"
@@ -65,7 +65,7 @@ const BestSellersItems: React.FC = () => {
         {bestSellers.map((item, index) => (
           <div
             key={index}
-            className="bg-white flex gap-3 rounded-lg p-3 text-center min-w-[320px] shadow-md"
+            className="bg-white flex gap-3 rounded-lg p-3 text-center min-w-[290px] md:min-w-[320px] shadow-md"
           >
             <div className="relative flex-1 w-full h-[110px]">
               <Image
