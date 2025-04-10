@@ -50,7 +50,7 @@ const BestSellersItems: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 10000); // 10 seconds delay
+    }, 1000); // 10 seconds delay
 
     return () => clearTimeout(timer); // Cleanup the timer on unmount
   }, []);
