@@ -1,10 +1,19 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import AppLayout from "@/components/layout/AppLayout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+import { Damion } from "next/font/google";
+
+export const damion = Damion({
+  subsets: ["latin"],
+  weight: "400", // Damion only has one weight
+  variable: "--font-damion", // optional: for use as a CSS variable
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
@@ -27,7 +36,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <AppLayout>{children}</AppLayout>
       </body>
     </html>
   );
