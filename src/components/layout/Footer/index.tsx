@@ -9,7 +9,7 @@ const Footer = () => {
         <span
           className={`text-center mx-auto flex text-3xl items-center gap-3 w-fit ${damion.className}`}
         >
-          BossWoods
+          BossWoods Cigars
         </span>
         <ul className="flex uppercase justify-center font-bold items-center space-x-4">
           <li>
